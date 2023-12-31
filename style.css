@@ -1,0 +1,31 @@
+/* Перша задача
+.container {
+    display: flex;
+}
+.box {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.box:nth-child(1) {
+    order: 3;
+    background-color: green;
+} */
+
+
+
+
+/* Друга задача */
+/* .box {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+.wraper {
+    display: flex;
+}
+.box:nth-child(1) {
+    background-color: yellow;
+} */

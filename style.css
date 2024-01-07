@@ -1,23 +1,26 @@
-/* Перша задача
-.container {
+/* Перша задача */
+.container1 {
     display: flex;
 }
-.box {
+.one {
+    margin-bottom: 150px;
+}
+.box1 {
     background-color: yellow;
     width: 200px;
     height: 200px;
     border: 1px solid black;
 }
-.box:nth-child(1) {
+.box1:nth-child(1) {
     order: 3;
     background-color: green;
-} */
+}
 
 
 
 
 /* Друга задача */
-/* .box {
+.box {
     background-color: green;
     width: 200px;
     height: 200px;
@@ -28,4 +31,4 @@
 }
 .box:nth-child(1) {
     background-color: yellow;
-} */
+}

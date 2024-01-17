@@ -1,17 +1,17 @@
 /* Перша задача */
-.container1 {
+.container2 {
     display: flex;
 }
 .one {
     margin-bottom: 150px;
 }
-.box1 {
+.box2 {
     background-color: yellow;
     width: 200px;
     height: 200px;
     border: 1px solid black;
 }
-.box1:nth-child(1) {
+.box2:nth-child(1) {
     order: 3;
     background-color: green;
 }
@@ -30,5 +30,38 @@
     display: flex;
 }
 .box:nth-child(1) {
+    background-color: yellow;
+}
+.two {
+    margin-bottom: 150px;
+}
+
+
+
+
+
+/* Третя задача */
+.box1 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+.father {
+    width: 815px;
+}
+.wraper1 {
+    display: flex;
+    justify-content: space-around;
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.box1:nth-child(1) {
+    background-color: yellow;
+}
+.box1:nth-child(3) {
     background-color: yellow;
 }

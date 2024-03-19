@@ -48,11 +48,10 @@
     border: 2px solid black;
 }
 .father {
-    width: 815px;
+    width: 814px;
 }
 .wraper1 {
     display: flex;
-    justify-content: space-around;
 }
 .container1 {
     display: flex;
